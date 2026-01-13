@@ -1,8 +1,8 @@
 import React from 'react';
 import { Component } from 'react';
-import './Page.css';
+import './Landing.css';
 
-const Page = () => {
+const Landing = () => {
   return (
     <>
     <div className='container'>
@@ -10,7 +10,9 @@ const Page = () => {
       <h2 style={{ fontSize: '1.8rem' }}>Conference Expense Planner </h2>
       {/* <h2 style={{ fontSize: '2rem', marginTop: '0px' }}>Planner </h2> */}
       <p>Plan your next major event with us!</p>
-      <button className='get-started-button'>Get Started</button>
+      <a href='/Product.jsx' className='btn-link'>
+      <button className='get-started-button' >Get Started</button>
+      </a>
     </div>
 
     <div className='info-section'>
@@ -39,4 +41,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Landing;
