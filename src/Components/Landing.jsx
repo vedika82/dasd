@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import './Landing.css';
+// import Product from './Components/Product';
 
 const Landing = () => {
   return (

@@ -21,7 +21,8 @@
     justify-items: center;
     width: 300px;
     text-align: center;
-
+      font-weight: 500;
+  
 
 }
 
@@ -39,6 +40,7 @@
   /* text-align: center; */
   gap: 40px; /*space between divs */
   height: 450px;
+  font-weight: 700;
 }
 
 
@@ -62,4 +64,5 @@
 
   /* text-align: center; */
   color: white;
+  
 }
